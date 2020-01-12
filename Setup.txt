@@ -1,0 +1,21 @@
+ng new basic-routing
+
+ng serve
+
+ng g c input-insert
+ng g c show-input-data
+
+//routing-main folder
+ng generate module routing-main
+
+//Angular Material
+npm install --save-exact @angular/material@5.2.4 @angular/cdk@5.2.4
+
+//rxjs-compat
+npm i rxjs-compat@6.1.0 --save
+
+
+
+
+
+ng generate module app-routing --flat --module=app
